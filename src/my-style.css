@@ -1,0 +1,108 @@
+.main-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px 5px 0px 5px;
+}
+
+.add-new-list{
+    background-color: #D7DCDF;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    width: 250px;
+    margin: 0px 5px 10px 5px;
+    cursor: pointer;
+    color: #586D79;
+}
+
+.new-list{
+    background-color: #D7DCDF;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    margin: 0px 5px 10px 5px;
+    width: 250px;
+}
+
+.new-list h2{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.card{
+    max-height: 50vh;
+    overflow-y: scroll;
+    padding: 2px;
+}
+
+.add-card-text{
+    opacity: 0.5;
+    cursor: pointer;
+    display: none;
+}
+
+.button-add-card{
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.button-add-card:hover {background-color: #3e8e41}
+
+.field-add-card{
+    padding: 0 0 40px 0;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    width: 230px;
+    resize: none;
+}
+
+.adding-field{
+    display: none;
+    margin-top: 10px;
+}
+
+.card-element{
+    background-color: #fff;
+    margin: 0px 0px 10px 0px;
+    word-wrap: break-word;
+
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.card-text{
+    font-size: 18px;
+    font-family: "Times New Roman";
+    padding: 5px;
+    margin: 5px;
+}
+
+.delete{
+    margin: 0;
+    opacity: 0.3;
+    float: right;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.edit-name-column{
+    width: 246px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.name-column{
+    display: none;
+}
